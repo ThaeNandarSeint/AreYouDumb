@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>testing</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body style="background-color: antiquewhite">
+    <div class="container-fluid">
+      <div id="move" class="d-flex justify-content-center">
+        <div
+          class="border border-info rounded py-3 my-5"
+          id="box"
+          style="width: 18rem; background-color: rgb(245, 238, 238);" >
+          <div class="">
+            <h5 class="text-center">Are you dumb?</h5>
+            <div class="d-flex justify-content-evenly">
+              <a id="yes" class="btn btn-info">Yes</a>
+              <audio class="d-none"
+      controls="controls"
+      id="laugh"
+      src="laugh.wav"
+      type="audio/mp3"
+    ></audio>
+              <a id="no" class="btn btn-secondary">No</a>
+              <audio class="d-none"
+      controls="controls"
+      id="nope"
+      src="nope.mp3"
+      type="audio/mp3"
+    ></audio>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="border border-info rounded py-3 mx-auto my-5 d-none" id="know" style="width: 18rem; background-color: rgb(245, 238, 238);">
+        <div class="card-body">
+          <h5 class="card-title text-center">I know it! &#128539</h5>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/kit.fontawesome.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
